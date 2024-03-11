@@ -33,15 +33,17 @@ public class Client1
 
 			StringBuffer result = new StringBuffer () ;
 			String line = " " ;
-			while (( line = rd . readLine () ) != null )
+			while (( line = rd.readLine () ) != null )
 			{
-			result . append ( line ) ;
-			result . append ("\n"); // pour avoir le saut de ligne
+			result.append ( line ) ;
+			result.append ("\n"); // pour avoir le saut de ligne
 			}
 
 			//COnvertir le string 
 			String page = result.toString( );
 			System.out.println(page);
+
+			string apikey= ee183260;
 
 
         } catch (Exception e) {

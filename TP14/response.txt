@@ -1,0 +1,11 @@
+ lancer debsecan:debsecan --suite buster
+Q1.1 : 834
+
+debsecan --suite $(lsb_release --codename --short)
+Q1.2 : 834
+
+debsecan --suite buster --only-fixed | wc -l
+Q1.3 254
+
+Q1.4 :on 465 CVE avant correction et 120 aprés correction
+
