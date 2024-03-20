@@ -1,0 +1,20 @@
+Q1.1 la umask n'a pas de manuel parcontre les autres commandes foctionnent
+
+Q1.2 permission octal 0644
+
+Q1.3 permission octal 0644
+
+Q1.4  permission par defaut 0022
+
+Q1.5 le umask n'a pas changé
+
+1.6 umask 022   
+
+Q2.1 config-5.10.0-28-amd64
+
+Q2.2 less config-$(uname -r)
+
+Q2.3 grep ACL config-$(uname -r) , oui les ACL sont activées
+
+
+ 
